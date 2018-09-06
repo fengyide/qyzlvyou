@@ -1,0 +1,24 @@
+/*
+* @Author: 123
+* @Date:   2018-08-13 09:06:47
+* @Last Modified by:   123
+* @Last Modified time: 2018-08-13 09:07:02
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方" ;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
