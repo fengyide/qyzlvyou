@@ -2,7 +2,7 @@
 * @Author: 123
 * @Date:   2018-08-26 13:28:50
 * @Last Modified by:   123
-* @Last Modified time: 2018-09-06 16:54:54
+* @Last Modified time: 2018-09-09 16:25:47
 */
 body{
 	/* background-image: url('../img/bk.jpg'); */
@@ -429,19 +429,28 @@ header .wrapper-four p{
 	/* background: yellow; */
 	border: 1px solid #cecece;
 	margin: auto;
+	cursor: pointer;
 }
-.center .top-one .container ul li:hover{
+/* .center .top-one .container ul li:hover{
 	background: white;
 	border-color: red;
+} */
+.center .top-one .container .activeWhite{
+	background: white;
+	border-color: red;
+
 }
 .center .top-one .container ul li p{
 	text-align: center;
 	line-height: 35px;
 	color:  #8e8e8e;
 }
-.center .top-one .container ul li:hover p{
+.center .top-one .container ul li .activeRED{
 	color: red;
 }
+/* .center .top-one .container ul li:hover p{
+	color: red;
+} */
 .center .top-three{
 	width: 100%;
 	/* height: 820px; */
@@ -461,6 +470,7 @@ header .wrapper-four p{
 	width: 100%;
 	/* height: 700px; */
 	/* background: orange; */
+	display: none;
 }
 .center .top-three ul li{
 	/* height: 330px; */

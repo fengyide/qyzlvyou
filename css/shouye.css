@@ -2,7 +2,7 @@
 * @Author: 123
 * @Date:   2018-08-22 20:10:05
 * @Last Modified by:   123
-* @Last Modified time: 2018-09-06 16:22:08
+* @Last Modified time: 2018-09-09 16:05:47
 */
 
 body{
@@ -426,18 +426,23 @@ header .wrapper-four p{
 	height: 100%;
 	/* background: yellow; */
 	border: 1px solid #cecece;
+	cursor: pointer;
 	margin: auto;
 }
-.center .top-one .container ul li:hover{
+/* .center .top-one .container ul li:hover{
+	
+} */
+.center .top-one .container .activeWhite{
 	background: white;
 	border-color: red;
+
 }
 .center .top-one .container ul li p{
 	text-align: center;
 	line-height: 35px;
 	color: #8e8e8e;
 }
-.center .top-one .container ul li:hover p{
+.center .top-one .container ul li .activeRED{
 	color: red;
 }
 .center .top-three{
@@ -455,10 +460,11 @@ header .wrapper-four p{
 .center .top-three .container{
 	background: #f7f7f7;
 	position: relative;
+/* 	height: 700px; */
 }
 .center .top-three ul{
 	width: 100%;
-	height: 700px;
+	display: none;
 	/* position: absolute;
 	top: 0;
 	left: 15px; */
@@ -508,7 +514,7 @@ header .wrapper-four p{
 	width: 200px;
 	height: 100%;
 	background: red;
-	margin: auto;
+	margin: 700px auto 0;
 	border-radius: 5px;
 }
 .center a{
